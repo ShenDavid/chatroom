@@ -1,0 +1,58 @@
+#cr{
+    width: 13cm;
+    height: 20cm;
+    background-color: chocolate;
+    margin: 0 auto;
+}
+
+#pan{
+    color: cornflowerblue;
+    height: 2cm;
+    width: 100%;
+}
+
+#b{
+    color: aqua;
+    height: 10cm;
+    float: left;
+}
+
+#inputwrapper{
+    height: 5cm;
+    position: relative;
+}
+
+#hismsg{
+    width: 13cm;
+    height: 10cm;
+    background-color: #fea;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+#msgin{
+    width: 13cm;
+    max-width: 13cm;
+    height: 2cm;
+    max-height: 2cm;
+}
+
+#sendbtn{
+    width: 2cm;
+}
+
+#loginwrapper{
+    text-align: center;
+    color: darkgrey;
+    padding-top: 3cm;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+}
+
+#namewrapper{
+    display: block;
+}

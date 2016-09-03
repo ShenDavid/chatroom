@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="logic.js"></script>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+
+</head>
+
+<body>
+<div id="cr">
+    <div id="pan">
+        <h1 style="color: #e99" align="center">FSE chat room</h1>
+    </div>
+    <div id="hismsg">
+
+        <b id="hismsginput"></b>
+
+    </div>
+    <div id="inputwrapper">
+        <textarea id="msgin" placeholder="click the button to send"></textarea>
+        <input id="sendbtn" type="button" value="send">
+    </div>
+</div>
+<div id="loginwrapper">
+    <b id="hint">Please get         yourself a name       </b>
+    <div id="namewrapper">
+        <input id="namein" type="text" placeholder="your name here">
+        <input id="inbtn" type="button" value="Enter the room">
+    </div>
+</div>
+
+</body>
+</html>

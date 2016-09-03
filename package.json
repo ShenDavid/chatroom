@@ -1,0 +1,11 @@
+{
+  "name": "FSEchatroom",
+  "version": "0.0.4",
+  "private": true,
+  "dependencies": {
+    "express": "~4.13.4",
+    "socket.io": "latest",
+    "mongodb": "latest",
+    "mongoose":"latest"
+  }
+}
